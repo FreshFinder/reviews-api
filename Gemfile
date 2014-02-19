@@ -13,5 +13,10 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'jazz_hands'
+  gem 'database_cleaner'
 end
 
+group :test do
+  gem 'json_spec'
+  gem 'database_cleaner', :require => false, :group => :test
+end

@@ -8,12 +8,4 @@ FactoryGirl.define do
     title "My favorite market in town!"
     content "This market is the greatest!"
   end
-
-  factory :review do
-    market_id 1
-    name "Joe Smith"
-    email "joe@example.com"
-    title "My favorite market in town!"
-    content "This market is the greatest!"
-  end
 end

@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'api_spec_helper'
 
 describe "Reviews API" do
   describe "GET /api/v1/reviews/:market_id" do
