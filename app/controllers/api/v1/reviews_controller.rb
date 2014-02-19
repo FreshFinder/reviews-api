@@ -13,6 +13,11 @@ class Api::V1::ReviewsController < ApplicationController
     end
   end
 
+  def index
+    reviews = Review.all
+    render json: reviews, :status => 201
+  end
+
   private
 
   def review_params
